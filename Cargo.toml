@@ -1,0 +1,13 @@
+[package]
+name = "raytracer"
+version = "0.1.0"
+authors = ["Francis Wang"]
+
+[lib]
+name = "raytracer"
+
+[[bin]]
+name = "raytracer_bin"
+
+[dependencies]
+image = "0.12.3"
